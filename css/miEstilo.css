@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+.contenido{
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+#zona1{
+    background-image: url('../image/ramo.jpg');
+    align-items: center;
+}
+#zona2{
+    background-image: url('../image/lirio1.jpg');
+    align-items: center;
+}
+#zona3{
+    background-image: url('../image/lirio2.jpg');
+    align-items: center;
+}
+#zona4{
+    background-image: url('../image/lirio3.jpg');
+    align-items: center;
+}
+#zona5{
+    background-image: url('../image/lirio4.jpg');
+    align-items: center;
+}
+#zona6{
+    background-image: url('../image/lirio5.jpg');
+    align-items: center;
+}
+#zona7{
+    background-image: url('../image/lirio6.jpg');
+    align-items: center;
+}
+
+
+/*Menu*/
+nav{
+    position: fixed;
+    left: 200px;
+    top: 30%;
+    z-index: 100;
+    transition: 0.4s ease;
+    transform: translateX(-50%);
+}
+ul{
+    list-style: none;
+}
+ul a{
+    display: block;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    border: 1px solid #334D2E;
+    padding: 10px 0;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    transition: 0.4s ease;
+}
+a:hover{
+    transform: translateX(10%);
+    background-color: #334D2E;
+    color:rgb(0, 0, 0);
+    border-left: #334D2E;
+}
+.contenido {
+    height: 100vh;
+    background-size: 100% auto;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end; 
+    padding-right: 80px;     
+}
+
+.info {
+    background-color: rgba(0, 0, 0, 0.6); 
+    border: 1px solid #334D2E;
+    padding: 25px;
+    border-radius: 8px;
+    max-width: 450px;
+    color: #ffffff;
+    font-family: sans-serif;
+    backdrop-filter: blur(4px); 
+}
+
+.info h2 {
+    margin-bottom: 10px;
+    color: #EFEBE9;
+    font-size: 24px;
+}
+
+.info p {
+    font-size: 15px;
+    line-height: 1.5;
+    color: #d1d1d1;
+}
